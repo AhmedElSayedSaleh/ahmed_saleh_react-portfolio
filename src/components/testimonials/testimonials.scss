@@ -1,0 +1,141 @@
+@import "../../global";
+
+.testimonials {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: 50px;
+
+    @include mobile{
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .container {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include mobile{
+      flex-direction: column;
+    }
+
+    .card {
+      background-color: white;
+      width: 250px;
+      height: 70%;
+      border-radius: 10px;
+      box-shadow: 0 0 15px -8px black;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 20px;
+      transition: all 1s ease;
+
+      @include mobile{
+        height: 30%;
+      }
+
+      &:first-child{
+        transform: rotate(-5deg);
+        &:hover{
+          @include mobile{
+            transform: translateY(40%) scale(1.3);
+          }
+        }
+      }
+      &:last-child{
+        transform: rotate(5deg);
+        &:hover{
+          @include mobile{
+            transform: translateY(-60%) scale(1.3);
+          }
+        }
+      }
+
+      &.featured{
+        width: 300px;
+        height: 75%;
+        margin: 0 30px;
+
+        @include mobile{
+          height: 35%;
+        }
+      }
+
+      &:hover{
+        transform: scale(1.3);
+        z-index: 1;
+
+        @include mobile{
+          width: 50%;
+          height: 70%;
+        }
+      }
+
+      &:hover .center{
+        display: block;
+      }
+
+      .top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .card-icon {
+          height: 25px;
+
+          &.left {
+            transform: rotate(-145deg);
+          }
+
+          &.right {
+            cursor: pointer;
+          }
+        }
+
+        .user-img {
+          height: 60px;
+          width: 60px;
+          border-radius: 50%;
+          object-fit: cover;
+          margin: 0 30px;
+        }
+      }
+
+      .center{
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #faf4f5;
+        color: lightslategray;
+        font-size: 15px;
+        text-align: center;
+
+        @include mobile{
+          display: none;
+        }
+      }
+
+      .bottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        h3{
+          margin-bottom: 5px;
+        }
+
+        h4{
+          color: gray;
+        }
+      }
+    }
+  }
+}

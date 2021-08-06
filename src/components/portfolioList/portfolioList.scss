@@ -1,0 +1,18 @@
+@import "../../global";
+
+.portfolio-list{
+  font-size: 14px;
+  margin-inline: 50px;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  @include mobile{
+    margin-inline: 10px;
+  }
+
+  &.active{
+    background-color: $main-color;
+    color: white;
+  }
+}
