@@ -15,7 +15,7 @@ function Contact() {
             </div>
             <div className="right">
                 <h2>Contact.</h2>
-                <form onSubmit={handleSubmit} name="contact" data-netlify="true" method="POST">
+                <form onSubmit={handleSubmit} name="contact" method="POST" data-netlify="true" netlify >
                     <input type="text" placeholder="Name" name="name" required/>
                     <input type="email" placeholder="Email" name="mail" required/>
                     <textarea placeholder="Message" name="message" required/>
