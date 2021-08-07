@@ -15,7 +15,7 @@ function Contact() {
             </div>
             <div className="right">
                 <h2>Contact.</h2>
-                <form onSubmit={handleSubmit} name="contact" method="POST" data-netlify="true">
+                <form onSubmit={handleSubmit} name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
                     <input type="hidden" name="form-name" value="contact" />
                     <input type="text" placeholder="Name" name="name" required/>
                     <input type="email" placeholder="Email" name="email" required/>
