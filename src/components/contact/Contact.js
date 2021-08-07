@@ -18,7 +18,7 @@ function Contact() {
                 <form onSubmit={handleSubmit} name="contact" data-netlify="true" method="POST">
                     <input type="text" placeholder="Name" name="name" required/>
                     <input type="email" placeholder="Email" name="mail" required/>
-                    <textarea placeholder="Message" name="comment" required/>
+                    <textarea placeholder="Message" name="message" required/>
                     <button type="submit" value="send">Send</button>
                     {message && <span>Thank,s I'll reply ASAP :)</span>}
                 </form>
