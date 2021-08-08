@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ahmed_saleh_react-portfolio/static/css/main.aa468025.chunk.css",
-    "main.js": "/ahmed_saleh_react-portfolio/static/js/main.01513d90.chunk.js",
-    "main.js.map": "/ahmed_saleh_react-portfolio/static/js/main.01513d90.chunk.js.map",
+    "main.js": "/ahmed_saleh_react-portfolio/static/js/main.af0c37eb.chunk.js",
+    "main.js.map": "/ahmed_saleh_react-portfolio/static/js/main.af0c37eb.chunk.js.map",
     "runtime-main.js": "/ahmed_saleh_react-portfolio/static/js/runtime-main.d1740b30.js",
     "runtime-main.js.map": "/ahmed_saleh_react-portfolio/static/js/runtime-main.d1740b30.js.map",
     "static/js/2.57b6482b.chunk.js": "/ahmed_saleh_react-portfolio/static/js/2.57b6482b.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.d1740b30.js",
     "static/js/2.57b6482b.chunk.js",
     "static/css/main.aa468025.chunk.css",
-    "static/js/main.01513d90.chunk.js"
+    "static/js/main.af0c37eb.chunk.js"
   ]
 }
