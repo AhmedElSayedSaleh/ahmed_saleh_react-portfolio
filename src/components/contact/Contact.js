@@ -15,7 +15,7 @@ function Contact() {
             </div>
             <div className="right">
                 <h2>Contact.</h2>
-                <form onSubmit={handleSubmit} name="contact" method="POST" action="https://formsubmit.co/dev.ahmedsaleh7@gmail.com">
+                <form onSubmit={handleSubmit} name="contact" target="_blank" action="https://formsubmit.co/dev.ahmedsaleh7@gmail.com" method="POST">
                     <input type="text" placeholder="Name" name="name" required/>
                     <input type="email" placeholder="Email" name="email" required/>
                     <textarea placeholder="Message" name="message" required/>
