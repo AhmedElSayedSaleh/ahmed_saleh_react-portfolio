@@ -28,7 +28,7 @@ function Intro() {
                     <h2>Hi There, I'm</h2>
                     <h1>Ahmed Saleh</h1>
                     <h3>Front End <span ref={textRef}></span></h3>
-                    <a className="cv" href="assets/pdf/Ahmed_Saleh_CV.pdf" target="_blank" download>Download CV <AssignmentReturnedOutlined style={{marginLeft: "5px"}}/></a>
+                    <a className="cv" href="assets/pdf/Ahmed_Saleh-CV.pdf" target="_blank" download>Download CV <AssignmentReturnedOutlined style={{marginLeft: "5px"}}/></a>
                 </div>
                 <a href="#portfolio" className="arrow-down">
                     <ExpandMore style={{fontSize: 60}}/>
