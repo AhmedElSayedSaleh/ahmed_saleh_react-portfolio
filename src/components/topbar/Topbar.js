@@ -1,5 +1,6 @@
 import React from 'react';
-import {Person, Mail} from "@material-ui/icons"
+import {Person, Mail} from "@material-ui/icons";
+import Logo from '../../assets/portfolio2.png';
 
 import "./topbar.scss"
 
@@ -9,7 +10,7 @@ function Topbar({menuOpen,setMenuOpen}) {
             <div className="wrapper">
                 <div className="left">
                     <a href="#intro" className="logo">
-                        <img src="assets/portfolio2.png" alt="portfolio"/>
+                        <img src={Logo} alt="portfolio"/>
                     </a>
                     <div className="icon-container">
                         <Person className="icon"/>

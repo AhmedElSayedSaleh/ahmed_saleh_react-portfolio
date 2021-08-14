@@ -1,6 +1,7 @@
 import React, {useEffect, useRef} from 'react';
 import {ExpandMore, AssignmentReturnedOutlined} from '@material-ui/icons';
 import {init} from 'ityped';
+import IntroImg from '../../assets/03.png';
 
 import "./intro.scss";
 
@@ -20,7 +21,7 @@ function Intro() {
         <div className="intro" id="intro">
             <div className="left">
                 <div className="image-container">
-                    <img src="assets/03.png" alt=""/>
+                    <img src={IntroImg} alt=""/>
                 </div>
             </div>
             <div className="right">

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import ContactImg from "../../assets/shake.svg";
 
 import "./contact.scss";
 
@@ -29,7 +30,7 @@ function Contact() {
   return (
     <div className="contact" id="contact">
       <div className="left">
-        <img src="assets/shake.svg" alt="" />
+        <img src={ContactImg} alt="" />
       </div>
       <div className="right">
         <h2>Contact.</h2>
