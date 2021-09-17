@@ -1,46 +1,47 @@
 @import "../../global";
 
-.intro{
+.intro {
   background-color: white;
   display: flex;
 
-  @include mobile{
+  @include mobile {
     flex-direction: column;
     align-items: center;
   }
 
-  .left{
+  .left {
     flex: 0.5;
     overflow: hidden;
 
-    .image-container{
+    .image-container {
       width: 100%;
       height: 100%;
       background-color: white;
-      //border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
-      //float: right;
+      text-align: center;
+      overflow: hidden;
 
-      img{
-        width: 300px;
+      img {
+        width: 50%;
         height: 100%;
         border-radius: 50%;
-        padding-bottom: 70px;
+        padding-bottom: 100px;
+        transform: translateY(10%);
 
-        @include mobile{
+        @include mobile {
           width: 200px;
           padding-bottom: 0;
         }
       }
     }
   }
-  .right{
+  .right {
     flex: 0.5;
     position: relative;
 
-    .wrapper{
+    .wrapper {
       width: 100%;
       height: 100%;
       padding-left: 50px;
@@ -48,48 +49,48 @@
       flex-direction: column;
       justify-content: center;
 
-      @include mobile{
+      @include mobile {
         padding-left: 0;
         padding-top: 20px;
         align-items: center;
         justify-content: flex-start;
       }
 
-      h1{
+      h1 {
         font-size: 60px;
         margin: 10px 0;
 
-        @include mobile{
+        @include mobile {
           font-size: 40px;
         }
       }
-      h2{
+      h2 {
         font-size: 35px;
       }
-      h3{
+      h3 {
         font-size: 30px;
 
-        @include mobile{
+        @include mobile {
           font-size: 20px;
         }
-        span{
+        span {
           color: crimson;
         }
 
-        .ityped-cursor{
+        .ityped-cursor {
           animation: blink 1s infinite;
         }
         @keyframes blink {
-          50%{
+          50% {
             opacity: 1;
           }
-          100%{
+          100% {
             opacity: 0;
           }
         }
       }
 
-      .cv{
+      .cv {
         width: 150px;
         height: 30px;
         color: white;
@@ -104,7 +105,7 @@
         justify-content: center;
         margin-top: 30px;
         text-decoration: none;
-        &:focus{
+        &:focus {
           outline: none;
         }
 
@@ -114,34 +115,34 @@
       }
     }
 
-    .arrow-down{
+    .arrow-down {
       position: absolute;
       bottom: 30px;
       left: 30%;
       color: black;
       animation: arrowMove 2s infinite;
 
-      @include mobile{
+      @include mobile {
         bottom: 10px;
         left: 50%;
         transform: translateX(-50%);
       }
     }
     @keyframes arrowMove {
-      50%{
+      50% {
         opacity: 0;
       }
-      100%{
+      100% {
         opacity: 1;
       }
     }
 
-    @include mobile{
-      @keyframes arrowMove{
-        50%{
+    @include mobile {
+      @keyframes arrowMove {
+        50% {
           opacity: 0;
         }
-        100%{
+        100% {
           opacity: 1;
         }
       }
