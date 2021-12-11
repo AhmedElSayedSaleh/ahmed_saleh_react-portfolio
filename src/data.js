@@ -10,35 +10,42 @@ import CMImg from "./assets/projects/ui/code-masters.jpeg";
 import TSImg from "./assets/projects/ui/Tea-Station.jpeg";
 import FilterAppImg from "./assets/projects/ui/FilterApp.jpeg";
 import PortfolioImg from "./assets/projects/react/React-portfolio.png";
+import EShopImg from "./assets/projects/react/E-Shop.png";
 import UnderConstructionImg from "./assets/projects/under-construction.jpg";
 
 export const featuredPortfolio = [
   {
     id: 1,
+    title: "E-Shop",
+    img: EShopImg,
+    url: "https://e-products-shop.herokuapp.com/",
+  },
+  {
+    id: 2,
     title: "Trending Movies & TV",
     img: MoviesImg,
     url: "https://ahmedelsayedsaleh.github.io/Angular-Movies",
   },
   {
-    id: 2,
+    id: 3,
     title: "Notes App",
     img: NotesImg,
     url: "https://ahmedelsayedsaleh.github.io/Angular-Notes-app",
   },
   {
-    id: 3,
+    id: 4,
     title: "Saudi Bell",
     img: SaudiBellImg,
     url: "https://ahmedelsayedsaleh.github.io/saudi-bell/",
   },
   {
-    id: 4,
+    id: 5,
     title: "DEVASH DCS",
     img: DCSImg,
     url: "https://ahmedelsayedsaleh.github.io/DCS/",
   },
   {
-    id: 5,
+    id: 6,
     title: "ElBahr ElHady",
     img: ElBahrImg,
     url: "https://ahmedelsayedsaleh.github.io/ElBahr-ElHady/",
@@ -105,12 +112,18 @@ export const uiPortfolio = [
 export const reactPortfolio = [
   {
     id: 1,
+    title: "E-Shop",
+    img: EShopImg,
+    url: "https://e-products-shop.herokuapp.com/",
+  },
+  {
+    id: 2,
     title: "React Portfolio",
     img: PortfolioImg,
     url: "https://ahmedelsayedsaleh.github.io/ahmed_saleh_react-portfolio/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Under Construction",
     img: UnderConstructionImg,
   },
