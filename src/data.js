@@ -1,5 +1,6 @@
 import MoviesImg from "./assets/projects/angular/movies.jpeg";
 import NotesImg from "./assets/projects/angular/notes-app.jpeg";
+import ShoppingCartImg from "./assets/projects/angular/shopping-cart.png";
 import SaudiBellImg from "./assets/projects/ui/Saudi-Bell.jpeg";
 import DCSImg from "./assets/projects/ui/DCS.jpeg";
 import ElBahrImg from "./assets/projects/ui/ElBahr-ElHady.jpg";
@@ -22,9 +23,9 @@ export const featuredPortfolio = [
   },
   {
     id: 2,
-    title: "Trending Movies & TV",
-    img: MoviesImg,
-    url: "https://ahmedelsayedsaleh.github.io/Angular-Movies",
+    title: "Shopping Cart",
+    img: ShoppingCartImg,
+    url: "https://angular-shopping-cart.vercel.app/",
   },
   {
     id: 3,
@@ -132,12 +133,18 @@ export const reactPortfolio = [
 export const angularPortfolio = [
   {
     id: 1,
+    title: "Shopping Cart",
+    img: ShoppingCartImg,
+    url: "https://angular-shopping-cart.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Trending Movies & TV",
     img: MoviesImg,
     url: "https://ahmedelsayedsaleh.github.io/Angular-Movies",
   },
   {
-    id: 2,
+    id: 3,
     title: "Notes App",
     img: NotesImg,
     url: "https://ahmedelsayedsaleh.github.io/Angular-Notes-app",
