@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ahmed_saleh_react-portfolio/static/css/main.ee8dcd42.chunk.css",
-    "main.js": "/ahmed_saleh_react-portfolio/static/js/main.b9f08192.chunk.js",
-    "main.js.map": "/ahmed_saleh_react-portfolio/static/js/main.b9f08192.chunk.js.map",
+    "main.js": "/ahmed_saleh_react-portfolio/static/js/main.e4285a7c.chunk.js",
+    "main.js.map": "/ahmed_saleh_react-portfolio/static/js/main.e4285a7c.chunk.js.map",
     "runtime-main.js": "/ahmed_saleh_react-portfolio/static/js/runtime-main.9faf7b39.js",
     "runtime-main.js.map": "/ahmed_saleh_react-portfolio/static/js/runtime-main.9faf7b39.js.map",
     "static/js/2.b6c3a025.chunk.js": "/ahmed_saleh_react-portfolio/static/js/2.b6c3a025.chunk.js",
@@ -33,6 +33,7 @@
     "static/media/react-dev.5e849c83.jpg": "/ahmed_saleh_react-portfolio/static/media/react-dev.5e849c83.jpg",
     "static/media/react_icon.51facde9.png": "/ahmed_saleh_react-portfolio/static/media/react_icon.51facde9.png",
     "static/media/shake.c7165a1f.svg": "/ahmed_saleh_react-portfolio/static/media/shake.c7165a1f.svg",
+    "static/media/shopping-cart.653132b5.png": "/ahmed_saleh_react-portfolio/static/media/shopping-cart.653132b5.png",
     "static/media/ui-dev.d89c29a1.jpeg": "/ahmed_saleh_react-portfolio/static/media/ui-dev.d89c29a1.jpeg",
     "static/media/under-construction.c32a81e1.jpg": "/ahmed_saleh_react-portfolio/static/media/under-construction.c32a81e1.jpg"
   },
@@ -40,6 +41,6 @@
     "static/js/runtime-main.9faf7b39.js",
     "static/js/2.b6c3a025.chunk.js",
     "static/css/main.ee8dcd42.chunk.css",
-    "static/js/main.b9f08192.chunk.js"
+    "static/js/main.e4285a7c.chunk.js"
   ]
 }
