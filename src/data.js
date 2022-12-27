@@ -19,7 +19,7 @@ export const featuredPortfolio = [
     id: 1,
     title: "E-Shop",
     img: EShopImg,
-    url: "https://e-products-shop.herokuapp.com/",
+    url: "https://e-shop-five.vercel.app/",
   },
   {
     id: 2,
@@ -115,7 +115,7 @@ export const reactPortfolio = [
     id: 1,
     title: "E-Shop",
     img: EShopImg,
-    url: "https://e-products-shop.herokuapp.com/",
+    url: "https://e-shop-five.vercel.app/",
   },
   {
     id: 2,
