@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import { ExpandMore, AssignmentReturnedOutlined } from "@material-ui/icons";
 import { init } from "ityped";
-import IntroImg from "../../assets/01.jpg";
-import Pdf from "../../assets/pdf/Ahmed_Saleh-CV.pdf";
+import IntroImg from "../../assets/Front-img.jpg";
+import Pdf from "../../assets/pdf/Ahmed_Saleh-resume.pdf";
 
 import "./intro.scss";
 
